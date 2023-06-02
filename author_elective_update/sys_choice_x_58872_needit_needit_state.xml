@@ -20,26 +20,6 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed Complete</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-23 20:34:34</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>149c1bec97c32110011c7e121153af47</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-23 20:34:34</sys_updated_on>
-            <value>Closed Complete</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Open</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
@@ -50,10 +30,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7e6c1b2097072110011c7e121153affe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-23 20:33:53</sys_updated_on>
-            <value>Open</value>
+            <sys_updated_on>2023-05-24 23:23:44</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -70,10 +50,30 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>af7c932097072110011c7e121153affe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-23 20:34:15</sys_updated_on>
-            <value>Work In Progress</value>
+            <sys_updated_on>2023-05-24 23:23:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-23 20:34:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>149c1bec97c32110011c7e121153af47</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-24 23:23:40</sys_updated_on>
+            <value>3</value>
         </sys_choice>
     </sys_choice>
 </record_update>

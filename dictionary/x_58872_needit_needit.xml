@@ -14,19 +14,21 @@
         <element label="Short description" max_length="50" name="short_description" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Closed Complete" value="Closed Complete"/>
-                <element inactive_on_update="false" label="Open" value="Open"/>
-                <element inactive_on_update="false" label="Work In Progress" value="Work In Progress"/>
+                <element inactive_on_update="false" label="Closed Complete" value="3"/>
+                <element inactive_on_update="false" label="Open" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" value="2"/>
             </choice>
         </element>
         <element label="Time to do something" max_length="40" name="time_to_do_something" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <element label="New Integer" max_length="40" name="u_integer_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element choice="1" label="What needed" max_length="40" name="u_what_needed" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Other" value="Other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_when_needed" type="glide_date_time"/>
     </element>
 </database>
