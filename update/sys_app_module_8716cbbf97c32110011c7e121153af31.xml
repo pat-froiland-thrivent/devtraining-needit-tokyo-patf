@@ -4,39 +4,39 @@
         <application display_value="NeedIt">dd9f032497c32110011c7e121153af74</application>
         <assessment/>
         <device_type/>
-        <filter table="x_58872_needit_needit">state=^EQ<item display_value="-- None --" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_58872_needit_needit">u_when_needed&gt;=javascript:gs.beginningOfToday()^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfToday()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
-        <hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint>
+        <hint>A list of my NeedIt Requests</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Open</mobile_title>
+        <mobile_title>My NeedIt Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_58872_needit_needit</name>
-        <order>300</order>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_58872_needit.admin</roles>
+        <roles>x_58872_needit.needit_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-23 20:30:19</sys_created_on>
+        <sys_created_on>2023-06-02 21:19:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>565bd7ac97c32110011c7e121153af69</sys_id>
+        <sys_id>8716cbbf97c32110011c7e121153af31</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Open</sys_name>
+        <sys_name>My NeedIt Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_app_module_565bd7ac97c32110011c7e121153af69</sys_update_name>
+        <sys_update_name>sys_app_module_8716cbbf97c32110011c7e121153af31</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-02 21:15:33</sys_updated_on>
+        <sys_updated_on>2023-06-02 21:33:18</sys_updated_on>
         <timeline_page/>
-        <title>Open</title>
+        <title>My NeedIt Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
