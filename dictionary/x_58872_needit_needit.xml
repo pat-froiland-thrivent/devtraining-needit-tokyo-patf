@@ -15,10 +15,11 @@
         <element label="Short description" max_length="50" name="short_description" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Awaiting Approval" value="4"/>
-                <element inactive_on_update="false" label="Closed Complete" value="3"/>
-                <element inactive_on_update="false" label="Open" value="1"/>
-                <element inactive_on_update="false" label="Work In Progress" value="2"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Open" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Time to do something" max_length="40" name="time_to_do_something" type="calendar_date_time"/>
